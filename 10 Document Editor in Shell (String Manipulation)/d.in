@@ -1,0 +1,6 @@
+  # hi 
+load_file doc1.txt
+print_document
+replace_text	   "space"
+print_document
+quit

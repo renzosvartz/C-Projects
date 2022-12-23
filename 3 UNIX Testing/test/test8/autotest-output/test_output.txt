@@ -1,0 +1,10 @@
+Tests started on:
+Mon Feb 17 13:09:01 EST 2020
+-----------------------------------------------------
+Test result for:
+/home/ee1501/cs150109/project3/test/test8
+-----------------------------------------------------
+Error comparison result for: 
+/home/ee1501/cs150109/project3/test/test8
+Tests completed on:
+Mon Feb 17 13:09:01 EST 2020

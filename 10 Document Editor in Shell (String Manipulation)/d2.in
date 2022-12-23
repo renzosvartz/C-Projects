@@ -1,0 +1,5 @@
+load_file doc1.txt
+print_document
+add_paragraph_after 2
+print_document
+quit

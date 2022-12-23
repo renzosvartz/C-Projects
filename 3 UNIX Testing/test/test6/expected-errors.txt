@@ -1,0 +1,2 @@
+Error: No number detected by this program's input evaluation. Try entering an integer again.
+End-of-file reached.

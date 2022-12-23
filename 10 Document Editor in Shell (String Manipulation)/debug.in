@@ -1,0 +1,108 @@
+#Passed
+add_paragraph_after 0
+#Invalid
+add_paragraph_after F
+add_paragraph_after -1
+add_paragraph_after 1 extra
+#Failed
+add_paragraph_after 2
+
+
+#Passed
+add_line_after 1 0 * <-space-> text
+print_document
+#Invalid
+add_line_after F 0 * <-space-> text
+add_line_after -1 0 * <-space-> text
+add_line_after 0 * <-space-> text
+add_line_after 1 F * <-space-> text
+add_line_after 1 -1 * <-space-> text
+add_line_after 1 * <-space-> text
+add_line_after 1 0 <-space-> text
+#Failed
+add_line_after 2 0 * <-space-> text
+
+
+#Passed
+append_line 1 * 123
+print_document
+#Invalid
+append_line F * 123
+append_line -1 * 123
+append_line *123
+apend_line 1 fail
+#Failed
+append_line 2 *fail
+
+
+#Passed
+remove_line 1 2
+print_document
+#Invalid
+remove_line F 2
+remove_line -1 2
+remove_line 2
+remove_line 1 F
+remove_line 1 -1
+remove_line 1 1 extra
+#Failed
+remove_line 1 2
+
+
+#Passed
+replace_text    	"space"   	 ":)"
+print_document
+#Invalid
+replace_text 
+replace_text	   "space"
+#Failed
+replace_text NULL "fail"
+replace_text "fail" NULL
+
+
+#Passed
+highlight_text ":)"
+print_document
+#Invalid
+highlight_text
+
+
+#Passed
+remove_text "[:)]"
+print_document
+#Invalid
+remove_text
+
+
+#Passed
+save_document debugsave.txt
+#Invalid
+save_document
+save_document fail.txt extra
+#Failed
+save_document x.txt
+
+
+#Passed
+reset_document
+print_document
+#Invalid
+reset_document extra
+
+
+#Passed
+load_file doc1.txt
+print_document
+#Invalid
+load_file
+load_file doc1.txt extra
+#Failed
+load_file nonexistant.txt
+
+
+#Failed
+exit extra
+quit extra
+#Passed
+quit
+exit

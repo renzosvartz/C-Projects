@@ -1,0 +1,21 @@
+add_paragraph_after 0
+
+add_line_after 1 0 * <-space-> text
+
+print_document
+
+replace_text "space" ""
+
+print_document
+
+replace_text "" "space"
+
+print_document
+
+highlight_text ""
+
+print_document
+
+remove_text "[]"
+
+print_document

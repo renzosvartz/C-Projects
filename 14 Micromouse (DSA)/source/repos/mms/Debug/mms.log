@@ -1,0 +1,33 @@
+﻿  nodeCheck.c
+  simLog.c
+  algo.c
+  API.c
+  getID.c
+  main.c
+C:\Users\funca\source\repos\mms\main.c(118,14): warning C4013: 'moveForward' undefined; assuming extern returning int
+C:\Users\funca\source\repos\mms\main.c(70,6): warning C4101: 'nextmove': unreferenced local variable
+C:\Users\funca\source\repos\mms\main.c(131,15): warning C4013: 'wallFront' undefined; assuming extern returning int
+C:\Users\funca\source\repos\mms\main.c(140,15): warning C4013: 'wallRight' undefined; assuming extern returning int
+C:\Users\funca\source\repos\mms\main.c(149,14): warning C4013: 'wallLeft' undefined; assuming extern returning int
+C:\Users\funca\source\repos\mms\main.c(195,38): warning C4013: 'calculate_heuristic_distance' undefined; assuming extern returning int
+C:\Users\funca\source\repos\mms\main.c(235,25): warning C4553: '==': result of expression not used; did you intend '='?
+  Generating Code...
+C:\Users\funca\source\repos\mms\main.c(240,25): warning C4553: '==': result of expression not used; did you intend '='?
+C:\Users\funca\source\repos\mms\main.c(174): warning C4715: 'nodeClassification': not all control paths return a value
+C:\Users\funca\source\repos\mms\main.c(480): warning C4716: 'wallFront': must return a value
+C:\Users\funca\source\repos\mms\main.c(495): warning C4716: 'wallRight': must return a value
+C:\Users\funca\source\repos\mms\main.c(310): warning C4716: 'choice': must return a value
+C:\Users\funca\source\repos\mms\main.c(510): warning C4716: 'wallLeft': must return a value
+C:\Users\funca\source\repos\mms\main.c(464): warning C4715: 'calculuate_heuristic_distance': not all control paths return a value
+nodeCheck.obj : error LNK2019: unresolved external symbol _API_wallFront referenced in function _nodeCheck
+main.obj : error LNK2001: unresolved external symbol _API_wallFront
+nodeCheck.obj : error LNK2019: unresolved external symbol _API_wallRight referenced in function _nodeCheck
+main.obj : error LNK2001: unresolved external symbol _API_wallRight
+nodeCheck.obj : error LNK2019: unresolved external symbol _API_wallLeft referenced in function _nodeCheck
+main.obj : error LNK2001: unresolved external symbol _API_wallLeft
+main.obj : error LNK2019: unresolved external symbol _API_moveForward referenced in function _choseForward
+main.obj : error LNK2019: unresolved external symbol _API_turnRight referenced in function _turnRight
+main.obj : error LNK2019: unresolved external symbol _API_turnLeft referenced in function _turnLeft
+main.obj : error LNK2019: unresolved external symbol _moveForward referenced in function _scan
+main.obj : error LNK2019: unresolved external symbol _calculate_heuristic_distance referenced in function _choice
+C:\Users\funca\source\repos\mms\Debug\mms.exe : fatal error LNK1120: 8 unresolved externals

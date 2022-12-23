@@ -1,0 +1,53 @@
+----------------------------------------------------------------------
+Please enter one dimension for two vectors X and Y.
+The vector length must be at least 1 and at most 10.
+Any non-numerical input will be ignored by the function's
+input evaluation. Numbers outside of the bounds
+1 and 10 will produce an error message and exit
+the program.
+This program initializes the length used in reference with vectors X and Y as 0.
+-----------------------------------------------------------------------
+Please enter the length of vectors X and Y: 
+You entered length: 2
+----------------------------------------------------------------------
+Enter the integers of Vector X, element by element, beginning at the first element
+The first number detected by the program's input evaluation will be
+evaluated to determine if it is less than 23170 because numbers greater
+than or equal to 23170 may exceed the storage capability of integers on this machine.
+Non-numerical input will be ignored by the program's input evaulation.
+You will always be given another opportunity to enter an integer to fill your matrix
+If the program reaches the end-of-file, the program will produce an error
+message and terminate.
+----------------------------------------------------------------------
+Please enter integer Vector X[0]:
+Vector X[0]: 1.00
+Please enter integer Vector X[1]:
+Vector X[1]: 1.00
+Please enter integer Vector Y[0]:
+Vector Y[0]: 1.00
+Please enter integer Vector Y[1]:
+Vector Y[1]: 1.00
+-------------------------------------------------------------
+Menu: Select an option using numbers 1-8. Non-numerical input will be ignored and you will have another chance to input an integer
+1. Display vectors X and Y
+2. Calculate and print the sum of all of the elements of vectors X and Y
+3. Display length of vectors
+4. Display the negation of vectors X and Y
+5. Display the addition of vectors X and Y
+6. Display the subtraction of vectors X and Y
+7. Calculuate the inner-product of vectors X and Y
+8. Exit the program
+You Entered 1.
+X: 1.00, 1.00
+Y: 1.00, 1.00
+
+Menu: Select an option using numbers 1-8. Non-numerical input will be ignored and you will have another chance to input an integer
+1. Display vectors X and Y
+2. Calculate and print the sum of all of the elements of vectors X and Y
+3. Display length of vectors
+4. Display the negation of vectors X and Y
+5. Display the addition of vectors X and Y
+6. Display the subtraction of vectors X and Y
+7. Calculuate the inner-product of vectors X and Y
+8. Exit the program
+Program exited.
